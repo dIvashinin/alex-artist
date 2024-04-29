@@ -37,3 +37,16 @@
     transform: rotate(360deg);
   }
 }  */
+
+.off-canvas-main {
+  width: 500px; 
+  
+  font-family:monospace;
+  font-size: 26px;
+}
+.off-canvas-container{
+ 
+}
+.off-canvas-body{
+  background: red;
+}
