@@ -9,11 +9,12 @@ function Navbar() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+    
 
   return (
     <div className='off-canvas-container'>
      <Button variant="danger" onClick={handleShow} className="me-2" >MENU</Button>
-     <Offcanvas className="off-canvas-main" show={show} onHide={handleClose} placement="top" >
+     <Offcanvas className="off-canvas-main" show={show} onHide={handleClose} placement="top" scroll="true" >
      <Offcanvas.Header closeButton>
      <Offcanvas.Title>MENU</Offcanvas.Title>
    </Offcanvas.Header>

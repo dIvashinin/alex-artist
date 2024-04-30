@@ -1,0 +1,14 @@
+.off-canvas-main {
+  /* width: 400px;  */
+  height: 100px;
+  font-family:monospace;
+  font-size: 29px;
+  /* padding: 6px; */
+  /* margin: 1px; */
+
+}
+
+.off-canvas-body{
+  background: red;
+
+}
