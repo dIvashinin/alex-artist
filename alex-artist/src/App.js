@@ -12,7 +12,7 @@ function App() {
         <img src={url1} className='pic1' alt='pic'/>
         <p>
           {/* Edit <code>src/App.js</code> and save to reload. */}
-          #alexanderskorobogatov {}
+          <span className='span1'>#</span>ale<span className='span-x'>x</span>ander<span className='span-s'>s</span>korobogatov {}
         </p>
           {/* <p><button>enter</button></p> */}
         {/* <a

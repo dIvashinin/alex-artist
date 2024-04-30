@@ -14,7 +14,36 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}*/
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .span1{
+    animation: span1-spin infinite 90s linear;
+    display: inline-block;
+  }
+} */
+
+.span-s, .span-x{
+  padding: 6px;
+  background: rgb(200, 200, 243);
+  opacity: 40%;
+  margin: 6px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .span-x{
+    animation: span-x-spin infinite 50s linear;
+    display: inline-block; /* Ensures the span can be rotated */
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .span-s{
+    animation: span-s-spin infinite 40s linear;
+    display: inline-block; /* Ensures the span can be rotated */
+  }
+}
+
+
 
 .App-header {
   /* background-color: #000000; */
@@ -45,3 +74,27 @@
   }
 }  */
 
+/* @keyframes span1-spin {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(120deg);
+  }
+}  */
+@keyframes span-x-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} 
+@keyframes span-s-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} 
