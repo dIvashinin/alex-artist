@@ -29,7 +29,7 @@
   opacity: 40%;
   margin: 6px;
 }
-
+/* i applied similar spin approach as was with react logo*/
 @media (prefers-reduced-motion: no-preference) {
   .span-x{
     animation: span-x-spin infinite 50s linear;
@@ -82,6 +82,7 @@
     transform: rotate(120deg);
   }
 }  */
+/* i applied similar spin approach as was with react logo*/
 @keyframes span-x-spin {
   from {
     transform: rotate(360deg);

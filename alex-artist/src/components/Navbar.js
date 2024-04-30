@@ -15,8 +15,8 @@ function Navbar() {
     <div className='off-canvas-container'>
      <Button variant="danger" onClick={handleShow} className="me-2" >MENU</Button>
      <Offcanvas className="off-canvas-main" show={show} onHide={handleClose} placement="top" scroll="true" >
-     <Offcanvas.Header closeButton>
-     <Offcanvas.Title>MENU</Offcanvas.Title>
+     <Offcanvas.Header className='off-canvas-header' closeButton>
+     <Offcanvas.Title className='off-canvas-title'>MENU</Offcanvas.Title>
    </Offcanvas.Header>
      
    <Offcanvas.Body className='off-canvas-body'>
