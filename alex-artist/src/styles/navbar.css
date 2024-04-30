@@ -14,15 +14,16 @@
   background: linear-gradient(to bottom, rgb(171, 77, 77), rgb(144, 41, 41));
   color: rgb(117, 197, 38);
   
-}
+/* }
 .off-canvas-body p{
   /* border-style: dashed; */
   
-}
-.off-canvas-header{
+}*/
+
+.off-canvas-header {
   color: blue;
   
 
 }
-.off-canvas-title{
-}
+/* .off-canvas-title{
+} */

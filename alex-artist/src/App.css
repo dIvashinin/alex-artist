@@ -59,6 +59,31 @@
 }
 .pic1{
   width: 450px;
+  /* from here https://shadows.brumm.af/ */
+  /* box-shadow:
+  0.8px 1px 4.2px rgba(0, 0, 0, 0.212),
+  1.8px 2.2px 9.2px rgba(0, 0, 0, 0.321),
+  3.2px 3.9px 15.5px rgba(0, 0, 0, 0.398),
+  4.9px 6px 23.4px rgba(0, 0, 0, 0.46),
+  7.2px 8.7px 33.7px rgba(0, 0, 0, 0.515),
+  10.1px 12.3px 47.7px rgba(0, 0, 0, 0.569),
+  14.2px 17.2px 67.6px rgba(0, 0, 0, 0.626),
+  20px 24.3px 98.2px rgba(0, 0, 0, 0.694),
+  28.8px 35px 151.3px rgba(0, 0, 0, 0.79),
+  42px 51px 269px rgba(0, 0, 0, 1)
+; */
+box-shadow:
+  0.8px 1px 7.9px rgba(0, 0, 0, 0.212),
+  1.8px 2.2px 25.8px rgba(0, 0, 0, 0.321),
+  3.2px 3.9px 67.3px rgba(0, 0, 0, 0.398),
+  4.9px 6px 197.7px rgba(0, 0, 0, 0.46),
+  7.2px 8.7px 268.1px rgba(0, 0, 0, 0.515),
+  10.1px 12.3px 286.2px rgba(0, 0, 0, 0.569),
+  14.2px 17.2px 289.9px rgba(0, 0, 0, 0.626),
+  20px 24.3px 286.7px rgba(0, 0, 0, 0.694),
+  28.8px 35px 279.2px rgba(0, 0, 0, 0.79),
+  42px 51px 269px rgba(0, 0, 0, 1)
+;
 }
 
 /* .App-link {
