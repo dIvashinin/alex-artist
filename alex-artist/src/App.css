@@ -1,5 +1,5 @@
 /* imports from styles folder */
-@import './styles/navbar.css';
+@import "./styles/navbar.css";
 
 .App {
   text-align: center;
@@ -23,7 +23,8 @@
   }
 } */
 
-.span-s, .span-x{
+.span-s,
+.span-x {
   padding: 6px;
   background: rgb(200, 200, 243);
   opacity: 40%;
@@ -31,19 +32,17 @@
 }
 /* i applied similar spin approach as was with react logo*/
 @media (prefers-reduced-motion: no-preference) {
-  .span-x{
+  .span-x {
     animation: span-x-spin infinite 50s linear;
     display: inline-block; /* Ensures the span can be rotated */
   }
 }
 @media (prefers-reduced-motion: no-preference) {
-  .span-s{
+  .span-s {
     animation: span-s-spin infinite 40s linear;
     display: inline-block; /* Ensures the span can be rotated */
   }
 }
-
-
 
 .App-header {
   /* background-color: #000000; */
@@ -54,10 +53,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 7vmin);
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color:blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: blue;
 }
-.pic1{
+.pic1 {
   width: 450px;
   /* from here https://shadows.brumm.af/ */
   /* box-shadow:
@@ -72,18 +71,15 @@
   28.8px 35px 151.3px rgba(0, 0, 0, 0.79),
   42px 51px 269px rgba(0, 0, 0, 1)
 ; */
-box-shadow:
-  0.8px 1px 7.9px rgba(0, 0, 0, 0.212),
-  1.8px 2.2px 25.8px rgba(0, 0, 0, 0.321),
-  3.2px 3.9px 67.3px rgba(0, 0, 0, 0.398),
-  4.9px 6px 197.7px rgba(0, 0, 0, 0.46),
-  7.2px 8.7px 268.1px rgba(0, 0, 0, 0.515),
-  10.1px 12.3px 286.2px rgba(0, 0, 0, 0.569),
-  14.2px 17.2px 289.9px rgba(0, 0, 0, 0.626),
-  20px 24.3px 286.7px rgba(0, 0, 0, 0.694),
-  28.8px 35px 279.2px rgba(0, 0, 0, 0.79),
-  42px 51px 269px rgba(0, 0, 0, 1)
-;
+  box-shadow: 0.8px 1px 7.9px rgba(0, 0, 0, 0.212),
+    1.8px 2.2px 25.8px rgba(0, 0, 0, 0.321),
+    3.2px 3.9px 67.3px rgba(0, 0, 0, 0.398),
+    4.9px 6px 197.7px rgba(0, 0, 0, 0.46),
+    7.2px 8.7px 268.1px rgba(0, 0, 0, 0.515),
+    10.1px 12.3px 286.2px rgba(0, 0, 0, 0.569),
+    14.2px 17.2px 289.9px rgba(0, 0, 0, 0.626),
+    20px 24.3px 286.7px rgba(0, 0, 0, 0.694),
+    28.8px 35px 279.2px rgba(0, 0, 0, 0.79), 42px 51px 269px rgba(0, 0, 0, 1);
 }
 
 /* .App-link {
@@ -115,7 +111,7 @@ box-shadow:
   to {
     transform: rotate(0deg);
   }
-} 
+}
 @keyframes span-s-spin {
   from {
     transform: rotate(360deg);
@@ -123,4 +119,4 @@ box-shadow:
   to {
     transform: rotate(0deg);
   }
-} 
+}
