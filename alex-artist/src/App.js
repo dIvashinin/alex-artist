@@ -1,7 +1,7 @@
 
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar.js';
+import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import InstallationsPage from './components/InstallationsPage';
 import SculpturesPage from './components/SculpturesPage';
 import ExhibitionsPage from './components/ExhibitionsPage';
@@ -14,19 +14,22 @@ function App() {
       <Router>
       <header className="App-header">
         <Navbar/>
-        <Switch>
+       <Routes>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* exact means i use app.js as landing page as my project is small */}
-        <Route path="/" exact/>
+        {/* <Route path="/" exact> */}
+          {/* <div> */}
+        {/* <img src={url1} className='pic1' alt='pic'/> */}
+        {/* <p> */}
+          {/* Edit <code>src/App.js</code> and save to reload. */}
+          {/* <span className='span1'>#</span>ale<span className='span-x'>x</span>ander<span className='span-s'>s</span>korobogatov {} */}
+        {/* </p> */}
+        {/* </div> */}
+        {/* </Route> */}
         <Route path="/paintings" component={PaintingsPage} />
         <Route path="/exhibitions" component={ExhibitionsPage} />
         <Route path="/installations" component={InstallationsPage} />
         <Route path="/sculptures" component={SculpturesPage} />
-        <img src={url1} className='pic1' alt='pic'/>
-        <p>
-          {/* Edit <code>src/App.js</code> and save to reload. */}
-          <span className='span1'>#</span>ale<span className='span-x'>x</span>ander<span className='span-s'>s</span>korobogatov {}
-        </p>
           {/* <p><button>enter</button></p> */}
         {/* <a
           className="App-link"
@@ -37,7 +40,7 @@ function App() {
           Learn React
         </a> */}
         
-      </Switch>
+        </Routes>
       </header>
       </Router>
     </div>

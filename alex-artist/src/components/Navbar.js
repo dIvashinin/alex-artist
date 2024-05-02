@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -20,12 +21,12 @@ function Navbar() {
    </Offcanvas.Header>
      
    <Offcanvas.Body className='off-canvas-body'>
-    <p>paintings</p>
+    <p><Link to="/paintings">paintings</Link></p>
     <p>sculptures</p>
     <p>installations</p>
     <p>drawings</p>
     <p>art</p>
-    <p>exhibitions</p>
+    <p><Link to="/exhibitions">exhibitions</Link></p>
     <p>bio</p>
     <p>contact</p>
    </Offcanvas.Body>
