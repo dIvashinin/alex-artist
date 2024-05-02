@@ -21,6 +21,7 @@ function Navbar() {
    </Offcanvas.Header>
      
    <Offcanvas.Body className='off-canvas-body'>
+   <p><Link to="/">home</Link></p>
     <p><Link to="/paintings">paintings</Link></p>
     <p>sculptures</p>
     <p>installations</p>
