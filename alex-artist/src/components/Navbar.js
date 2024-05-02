@@ -10,6 +10,10 @@ function Navbar() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const handleMenuItemClick = () => {
+      handleClose(); // Close the offcanvas when a menu item is clicked
+    };
     
 
   return (
@@ -21,15 +25,15 @@ function Navbar() {
    </Offcanvas.Header>
      
    <Offcanvas.Body className='off-canvas-body'>
-   <p><Link to="/">home</Link></p>
-    <p><Link to="/paintings">paintings</Link></p>
-    <p>sculptures</p>
-    <p>installations</p>
-    <p>drawings</p>
-    <p>art</p>
-    <p><Link to="/exhibitions">exhibitions</Link></p>
-    <p>bio</p>
-    <p>contact</p>
+   <p onClick={handleMenuItemClick}><Link to="/">home</Link></p>
+    <p onClick={handleMenuItemClick}><Link to="/paintings">paintings</Link></p>
+    <p onClick={handleMenuItemClick}><Link to="/sculptures">sculptures</Link></p>
+    <p onClick={handleMenuItemClick}><Link to="/installations">installations</Link></p>
+    <p onClick={handleMenuItemClick}><Link to="/drawings">drawings</Link></p>
+    <p onClick={handleMenuItemClick}><Link to="/art">art</Link></p>
+    <p onClick={handleMenuItemClick}><Link to="/exhibitions">exhibitions</Link></p>
+    <p onClick={handleMenuItemClick}><Link to="/bio">bio</Link></p>
+    <p onClick={handleMenuItemClick}><Link to="/contact">contact</Link></p>
    </Offcanvas.Body>
  </Offcanvas>
     </div>
