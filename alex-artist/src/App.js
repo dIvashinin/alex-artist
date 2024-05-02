@@ -26,10 +26,10 @@ function App() {
         {/* </p> */}
         {/* </div> */}
         {/* </Route> */}
-        <Route path="/paintings" component={PaintingsPage} />
-        <Route path="/exhibitions" component={ExhibitionsPage} />
-        <Route path="/installations" component={InstallationsPage} />
-        <Route path="/sculptures" component={SculpturesPage} />
+        <Route path="/paintings" element={<PaintingsPage />} />
+        <Route path="/exhibitions" element={<ExhibitionsPage />} />
+        <Route path="/installations" element={<InstallationsPage/>} />
+        <Route path="/sculptures" element={<SculpturesPage/>} />
           {/* <p><button>enter</button></p> */}
         {/* <a
           className="App-link"
