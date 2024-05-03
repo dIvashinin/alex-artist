@@ -7,6 +7,7 @@ import SculpturesPage from './components/SculpturesPage';
 import ExhibitionsPage from './components/ExhibitionsPage';
 import PaintingsPage from './components/PaintingsPage';
 import HomePage from './components/HomePage';
+import ArtPage from './components/ArtPage';
 
 function App() {
   const url1 = "https://res.cloudinary.com/dzghua4dz/image/upload/v1714483076/alex/ojxr9qoq9nluhiryfwha.jpg";
@@ -34,6 +35,7 @@ function App() {
         <Route path="/exhibitions" element={<ExhibitionsPage />} />
         <Route path="/installations" element={<InstallationsPage/>} />
         <Route path="/sculptures" element={<SculpturesPage/>} />
+        <Route path="/art" element={<ArtPage/>} />
           {/* <p><button>enter</button></p> */}
         {/* <a
           className="App-link"
