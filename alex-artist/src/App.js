@@ -9,6 +9,7 @@ import PaintingsPage from './components/PaintingsPage';
 import HomePage from './components/HomePage';
 import ArtPage from './components/ArtPage';
 import DrawingsPage from './components/DrawingsPage';
+import BioPage from './components/BioPage';
 
 function App() {
   const url1 = "https://res.cloudinary.com/dzghua4dz/image/upload/v1714483076/alex/ojxr9qoq9nluhiryfwha.jpg";
@@ -38,6 +39,7 @@ function App() {
         <Route path="/sculptures" element={<SculpturesPage/>} />
         <Route path="/art" element={<ArtPage/>} />
         <Route path="/drawings" element={<DrawingsPage/>} />
+        <Route path="/bio" element={<BioPage/>} />
           {/* <p><button>enter</button></p> */}
         {/* <a
           className="App-link"
