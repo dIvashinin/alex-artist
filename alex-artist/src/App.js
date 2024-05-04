@@ -41,7 +41,7 @@ function App() {
         <Route path="/art" element={<ArtPage/>} />
         <Route path="/drawings" element={<DrawingsPage/>} />
         <Route path="/bio" element={<BioPage/>} />
-        <Route path="/contacts" element={<ContactPage/>} />
+        <Route path="/contact" element={<ContactPage/>} />
           {/* <p><button>enter</button></p> */}
         {/* <a
           className="App-link"
