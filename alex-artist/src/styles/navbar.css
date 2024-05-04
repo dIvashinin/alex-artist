@@ -30,3 +30,37 @@
 .off-canvas-button{
   margin: 10px;
 }
+
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+  color: white; /* Text color */
+  padding: 10px; /* Padding around the navbar */
+  display: flex;  /* Use flexbox layout */
+ flex-direction: row; 
+  justify-content:baseline;
+  font-size: 24px;
+  margin: 6px;
+  opacity: 80%;
+}
+
+.navbar-nav {
+  list-style-type: none; /* Remove default bullet points */
+  margin: 0;
+  padding: 0;
+ display: flex;   /*Use flexbox layout for the menu items */
+ 
+}
+
+.nav-item {
+  
+  margin-right: 10px; /* Add some space between menu items */
+}
+
+.nav-link {
+  color: white; /* Text color of the links */
+  text-decoration: none; /* Remove default underline */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline links on hover */
+}

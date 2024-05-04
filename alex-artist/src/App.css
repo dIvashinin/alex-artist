@@ -27,7 +27,7 @@
 .span-x {
   padding: 6px;
   background: rgb(200, 200, 243);
-  opacity: 40%;
+  opacity: 80%;
   margin-right: 6px;
   margin-left: 6px;
   
@@ -48,10 +48,10 @@
 
 .App-header {
   /* background-color: #000000; */
-  background: linear-gradient(to bottom, rgb(190, 190, 190), rgb(135, 135, 135));
+  /* background: linear-gradient(to bottom, rgb(190, 190, 190), rgb(135, 135, 135)); */
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 3vmin);
