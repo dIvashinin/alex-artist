@@ -5,10 +5,10 @@ function HomePage() {
   
   return (
     <>
-      <img src={url1} className='pic1' alt='pic'/>
       <p>
         <span className='span1'>#</span>ale<span className='span-x'>x</span>ander<span className='span-s'>s</span>korobogatov {}
       </p>
+      <img src={url1} className='pic1' alt='pic'/>
     </>
   );
 }

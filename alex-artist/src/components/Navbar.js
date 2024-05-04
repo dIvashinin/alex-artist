@@ -73,31 +73,31 @@ return (
   <nav className='navbar'>
       <ul className='navbar-nav'>
         <li className='nav-item'>
-          <Link to="/" className='nav-link'>Home</Link>
+          <Link to="/" className='nav-link'>home</Link>
         </li>
         <li className='nav-item'>
-          <Link to="/paintings" className='nav-link'>Paintings</Link>
+          <Link to="/paintings" className='nav-link'>paintings</Link>
         </li>
         <li className='nav-item'>
-          <Link to="/sculptures" className='nav-link'>Sculptures</Link>
+          <Link to="/sculptures" className='nav-link'>sculptures</Link>
         </li>
         <li className='nav-item'>
-          <Link to="/installations" className='nav-link'>Installations</Link>
+          <Link to="/installations" className='nav-link'>installations</Link>
         </li>
         <li className='nav-item'>
-          <Link to="/drawings" className='nav-link'>Drawings</Link>
+          <Link to="/drawings" className='nav-link'>drawings</Link>
         </li>
         <li className='nav-item'>
-          <Link to="/art" className='nav-link'>Art</Link>
+          <Link to="/art" className='nav-link'>art</Link>
         </li>
         <li className='nav-item'>
-          <Link to="/exhibitions" className='nav-link'>Exhibitions</Link>
+          <Link to="/exhibitions" className='nav-link'>exhibitions</Link>
         </li>
         <li className='nav-item'>
-          <Link to="/bio" className='nav-link'>Bio</Link>
+          <Link to="/bio" className='nav-link'>bio</Link>
         </li>
         <li className='nav-item'>
-          <Link to="/contact" className='nav-link'>Contact</Link>
+          <Link to="/contact" className='nav-link'>contact</Link>
         </li>
       </ul>
     </nav>
