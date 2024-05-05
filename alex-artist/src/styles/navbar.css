@@ -1,33 +1,28 @@
 .off-canvas-main {
   /* width: 400px;  */
   height: 100px;
-  font-family:monospace;
+  font-family: monospace;
   font-size: 29px;
   font-weight: bold;
   /* padding: 6px; */
   /* margin: 1px; */
-
 }
 
-.off-canvas-body{
+.off-canvas-body {
   /* background: rgb(144, 41, 41); */
   background: linear-gradient(to bottom, rgb(171, 77, 77), rgb(144, 41, 41));
   color: rgb(117, 197, 38);
-  
-/* }
+
+  /* }
 .off-canvas-body p{
   /* border-style: dashed; */
-  
-}*/
-
-.off-canvas-header {
+}
+*/ .off-canvas-header {
   color: blue;
-  
-
 }
 /* .off-canvas-title{
 } */
-.off-canvas-button{
+.off-canvas-button {
   margin: 10px;
 }
 
@@ -36,25 +31,22 @@
   color: white; /* Text color */
   padding: 1px; /* Padding around the navbar */
   padding-left: 2px;
-  display: flex;  /* Use flexbox layout */
- flex-direction: row; 
-  justify-content:baseline;
+  display: flex; /* Use flexbox layout */
+  flex-direction: row;
+  justify-content: baseline;
   font-size: 24px;
   margin: 0px 8px 20px 8px;
   opacity: 80%;
-  
 }
 
 .navbar-nav {
   list-style-type: none; /* Remove default bullet points */
   margin: 0;
   padding: 0;
- display: flex;   /*Use flexbox layout for the menu items */
- 
+  display: flex; /*Use flexbox layout for the menu items */
 }
 
 .nav-item {
-  
   margin-right: 6px; /* Add some space between menu items */
 }
 
@@ -64,6 +56,6 @@
 }
 
 .nav-link:hover {
-  text-decoration:line-through;
+  text-decoration: line-through;
   color: rgb(72, 255, 0);
 }
