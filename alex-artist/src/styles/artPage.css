@@ -1,6 +1,6 @@
-.art-page-main-container{
+/* .art-page-main-container{
 
-}
+} */
 .art-page-main-container img{
   box-shadow:
    0.8px 1px 4.2px rgba(0, 0, 0, 0.212),
@@ -14,6 +14,7 @@
    28.8px 35px 151.3px rgba(0, 0, 0, 0.79),
    42px 51px 269px rgba(0, 0, 0, 1)
  ; 
-
- width: 600px;
+ max-width: 100%;
+ height: auto;
+ max-width: 600px;
 }
