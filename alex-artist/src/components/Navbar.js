@@ -68,7 +68,7 @@ function Navbar() {
 //     </div>
 //   )
 
-
+// changed navbar to normal instead of offcanvas style
 return (
   <nav className='navbar'>
       <ul className='navbar-nav'>
