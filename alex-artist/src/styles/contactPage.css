@@ -1,0 +1,4 @@
+.insta-link{
+  text-decoration: none; /* Remove default underline */
+  color: rgb(0, 0, 0); /* Text color of the links */
+}
