@@ -1,6 +1,7 @@
 /* imports from styles folder */
 @import "./styles/navbar.css";
 @import "./styles/artPage.css";
+@import "./styles/contactPage.css";
 
 .App {
   text-align: center;
