@@ -1,31 +1,26 @@
-.art-page-main-container{
+.art-page-main-container {
   width: 500px;
   /* height: 900px;
   overflow: hidden; Hide any overflow if images are larger than the container */
-  
 }
-.art-page-main-container img{
-  box-shadow:
-   0.8px 1px 4.2px rgba(0, 0, 0, 0.212),
-   1.8px 2.2px 9.2px rgba(0, 0, 0, 0.321),
-   3.2px 3.9px 15.5px rgba(0, 0, 0, 0.398),
-   4.9px 6px 23.4px rgba(0, 0, 0, 0.46),
-   7.2px 8.7px 33.7px rgba(0, 0, 0, 0.515),
-   10.1px 12.3px 47.7px rgba(0, 0, 0, 0.569),
-   14.2px 17.2px 67.6px rgba(0, 0, 0, 0.626),
-   20px 24.3px 98.2px rgba(0, 0, 0, 0.694),
-   28.8px 35px 151.3px rgba(0, 0, 0, 0.79),
-   42px 51px 269px rgba(0, 0, 0, 1)
- ; 
- /* max-width: 100%;
+.art-page-main-container img {
+  box-shadow: 0.8px 1px 4.2px rgba(0, 0, 0, 0.212),
+    1.8px 2.2px 9.2px rgba(0, 0, 0, 0.321),
+    3.2px 3.9px 15.5px rgba(0, 0, 0, 0.398),
+    4.9px 6px 23.4px rgba(0, 0, 0, 0.46),
+    7.2px 8.7px 33.7px rgba(0, 0, 0, 0.515),
+    10.1px 12.3px 47.7px rgba(0, 0, 0, 0.569),
+    14.2px 17.2px 67.6px rgba(0, 0, 0, 0.626),
+    20px 24.3px 98.2px rgba(0, 0, 0, 0.694),
+    28.8px 35px 151.3px rgba(0, 0, 0, 0.79), 42px 51px 269px rgba(0, 0, 0, 1);
+  /* max-width: 100%;
  height: auto;
- max-width: 600px; */ 
- width: 100%; /* Make the images fill the width of the container */
-height: auto; /* Maintain the aspect ratio */
-   display: block;/* Ensure the images don't have extra space below them */
+ max-width: 600px; */
+  width: 100%; /* Make the images fill the width of the container */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensure the images don't have extra space below them */
 
   /* width: 100%; /* Make the images fill the width of the container */
   /* height: 100%; Make the images fill the height of the container */
-  /* object-fit: cover; Maintain aspect ratio and cover the container */ 
- 
+  /* object-fit: cover; Maintain aspect ratio and cover the container */
 }
