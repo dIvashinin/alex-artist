@@ -14,8 +14,8 @@
     20px 24.3px 98.2px rgba(0, 0, 0, 0.694),
     28.8px 35px 151.3px rgba(0, 0, 0, 0.79), 42px 51px 269px rgba(0, 0, 0, 1);
   /* max-width: 100%;
- height: auto;
- max-width: 600px; */
+  height: auto;
+  max-width: 600px; */
   width: 100%; /* Make the images fill the width of the container */
   height: auto; /* Maintain the aspect ratio */
   display: block; /* Ensure the images don't have extra space below them */
