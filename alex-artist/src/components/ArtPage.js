@@ -15,6 +15,14 @@ function ArtPage() {
       <img src={url4} className="pic4" alt="pic" />
       <img src={url2} className="pic2" alt="pic" />
       <img src={url3} className="pic3" alt="pic" />
+      <img src={url} className="pic" alt="pic" />
+      <img src={url4} className="pic4" alt="pic" />
+      <img src={url2} className="pic2" alt="pic" />
+      <img src={url3} className="pic3" alt="pic" />
+      <img src={url} className="pic" alt="pic" />
+      <img src={url4} className="pic4" alt="pic" />
+      <img src={url2} className="pic2" alt="pic" />
+      <img src={url3} className="pic3" alt="pic" />
     </div>
   );
 }
