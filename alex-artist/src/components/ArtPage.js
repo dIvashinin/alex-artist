@@ -11,18 +11,18 @@ function ArtPage() {
     "https://res.cloudinary.com/dzghua4dz/image/upload/v1714764179/alex/e3pdkdekzmvpn17hjmyr.jpg";
   return (
     <div className="art-page-main-container">
-      <img src={url} className="pic" alt="pic" />
-      <img src={url4} className="pic4" alt="pic" />
-      <img src={url2} className="pic2" alt="pic" />
-      <img src={url3} className="pic3" alt="pic" />
-      <img src={url} className="pic" alt="pic" />
-      <img src={url4} className="pic4" alt="pic" />
-      <img src={url2} className="pic2" alt="pic" />
-      <img src={url3} className="pic3" alt="pic" />
-      <img src={url} className="pic" alt="pic" />
-      <img src={url4} className="pic4" alt="pic" />
-      <img src={url2} className="pic2" alt="pic" />
-      <img src={url3} className="pic3" alt="pic" />
+      <div class="masonry-item"><img src={url} className="pic" alt="pic" /></div>
+      <div class="masonry-item"><img src={url4} className="pic4" alt="pic" /></div>
+      <div class="masonry-item"><img src={url2} className="pic2" alt="pic" /></div>
+      <div class="masonry-item"><img src={url3} className="pic3" alt="pic" /></div>
+      <div class="masonry-item"><img src={url} className="pic" alt="pic" /></div>
+      <div class="masonry-item"><img src={url4} className="pic4" alt="pic" /></div>
+      <div class="masonry-item"><img src={url2} className="pic2" alt="pic" /></div>
+      <div class="masonry-item"><img src={url3} className="pic3" alt="pic" /></div>
+      <div class="masonry-item"><img src={url} className="pic" alt="pic" /></div>
+      <div class="masonry-item"><img src={url4} className="pic4" alt="pic" /></div>
+      <div class="masonry-item"><img src={url2} className="pic2" alt="pic" /></div>
+      <div class="masonry-item"><img src={url3} className="pic3" alt="pic" /></div>
     </div>
   );
 }

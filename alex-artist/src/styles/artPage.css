@@ -1,7 +1,13 @@
 .art-page-main-container {
-  width: 500px;
+  /* width: 500px; */
   /* height: 900px;
   overflow: hidden; Hide any overflow if images are larger than the container */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+.masonry-item {
+  margin-bottom: 20px;
 }
 .art-page-main-container img {
   box-shadow: 0.8px 1px 4.2px rgba(0, 0, 0, 0.212),
