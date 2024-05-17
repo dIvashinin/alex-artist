@@ -23,6 +23,18 @@ function ArtPage() {
       <div class="masonry-item"><img src={url4} className="pic4" alt="pic" /></div>
       <div class="masonry-item"><img src={url2} className="pic2" alt="pic" /></div>
       <div class="masonry-item"><img src={url3} className="pic3" alt="pic" /></div>
+      <div class="masonry-item"><img src={url} className="pic" alt="pic" /></div>
+      <div class="masonry-item"><img src={url4} className="pic4" alt="pic" /></div>
+      <div class="masonry-item"><img src={url2} className="pic2" alt="pic" /></div>
+      <div class="masonry-item"><img src={url3} className="pic3" alt="pic" /></div>
+      <div class="masonry-item"><img src={url} className="pic" alt="pic" /></div>
+      <div class="masonry-item"><img src={url4} className="pic4" alt="pic" /></div>
+      <div class="masonry-item"><img src={url2} className="pic2" alt="pic" /></div>
+      <div class="masonry-item"><img src={url3} className="pic3" alt="pic" /></div>
+      <div class="masonry-item"><img src={url} className="pic" alt="pic" /></div>
+      <div class="masonry-item"><img src={url4} className="pic4" alt="pic" /></div>
+      <div class="masonry-item"><img src={url2} className="pic2" alt="pic" /></div>
+      <div class="masonry-item"><img src={url3} className="pic3" alt="pic" /></div>
     </div>
   );
 }
