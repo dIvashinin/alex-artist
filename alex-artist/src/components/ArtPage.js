@@ -1,5 +1,9 @@
-import React from "react";
-import ImageGallery from "react-image-gallery";
+import React, { useState } from "react";
+// import ImageGallery from "react-image-gallery";
+import ImageModal from './ImageModal';
+import MasonryItem from './MasonryItem';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import "react-image-gallery/styles/css/image-gallery.css";
 
 function ArtPage() {
@@ -12,9 +16,22 @@ function ArtPage() {
   const url3 =
     "https://res.cloudinary.com/dzghua4dz/image/upload/v1714764179/alex/e3pdkdekzmvpn17hjmyr.jpg";
 
-  {
+  //   const [showModal, setShowModal] = useState(false);
+  // const [currentImage, setCurrentImage] = useState('');
+
+  // const handleShowModal = (imageUrl) => {
+  //   setCurrentImage(imageUrl);
+  //   setShowModal(true);
+  // };
+
+  // const handleCloseModal = () => {
+  //   setShowModal(false);
+  //   setCurrentImage('');
+  // };
+
+  
     /* image gallery works but this is not the way i want it */
-  }
+  
   // const images = [
   //   {original: url, thumbnail: url,
   //   },
@@ -102,7 +119,7 @@ function ArtPage() {
       </div>
 
       {/* image gallery works but this is not the way i want it */}
-      <ImageGallery items={images} />
+      {/* <ImageGallery items={images} /> */}
     </div>
   );
 }
