@@ -1,19 +1,19 @@
 import React from 'react'
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
+// import { useState } from 'react';
+// import Button from 'react-bootstrap/Button';
+// import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 
 
 function Navbar() {
 
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    // const [show, setShow] = useState(false);
+    // const handleClose = () => setShow(false);
+    // const handleShow = () => setShow(true);
 
-    const handleMenuItemClick = () => {
-      handleClose(); // Close the offcanvas when a menu item is clicked
-    };
+    // const handleMenuItemClick = () => {
+    //   handleClose(); // Close the offcanvas when a menu item is clicked
+    // };
     
 
 //   return (
@@ -70,34 +70,34 @@ function Navbar() {
 
 // changed navbar to normal instead of offcanvas style
 return (
-  <nav className='navbar'>
-      <ul className='navbar-nav'>
-        <li className='nav-item'>
-          <Link to="/" className='nav-link'>home</Link>
+  <nav className='navigation-bar'>
+      <ul className='navigation-bar-nav'>
+        <li className='navigation-item'>
+          <Link to="/" className='navigation-link'>home</Link>
         </li>
-        <li className='nav-item'>
-          <Link to="/paintings" className='nav-link'>paintings</Link>
+        <li className='navigation-item'>
+          <Link to="/paintings" className='navigation-link'>paintings</Link>
         </li>
-        <li className='nav-item'>
-          <Link to="/sculptures" className='nav-link'>sculptures</Link>
+        <li className='navigation-item'>
+          <Link to="/sculptures" className='navigation-link'>sculptures</Link>
         </li>
-        <li className='nav-item'>
-          <Link to="/installations" className='nav-link'>installations</Link>
+        <li className='navigation-item'>
+          <Link to="/installations" className='navigation-link'>installations</Link>
         </li>
-        <li className='nav-item'>
-          <Link to="/drawings" className='nav-link'>drawings</Link>
+        <li className='navigation-item'>
+          <Link to="/drawings" className='navigation-link'>drawings</Link>
         </li>
-        <li className='nav-item'>
-          <Link to="/art" className='nav-link'>art</Link>
+        <li className='navigation-item'>
+          <Link to="/art" className='navigation-link'>art</Link>
         </li>
-        <li className='nav-item'>
-          <Link to="/exhibitions" className='nav-link'>exhibitions</Link>
+        <li className='navigation-item'>
+          <Link to="/exhibitions" className='navigation-link'>exhibitions</Link>
         </li>
-        <li className='nav-item'>
-          <Link to="/bio" className='nav-link'>bio</Link>
+        <li className='navigation-item'>
+          <Link to="/bio" className='navigation-link'>bio</Link>
         </li>
-        <li className='nav-item'>
-          <Link to="/contact" className='nav-link'>contact</Link>
+        <li className='navigation-item'>
+          <Link to="/contact" className='navigation-link'>contact</Link>
         </li>
       </ul>
     </nav>

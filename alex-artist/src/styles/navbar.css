@@ -1,33 +1,33 @@
-.off-canvas-main {
+/* .off-canvas-main { */
   /* width: 400px;  */
-  height: 100px;
-  font-family: monospace;
-  font-size: 29px;
-  font-weight: bold;
+  /* height: 100px; */
+  /* font-family: monospace; */
+  /* font-size: 29px; */
+  /* font-weight: bold; */
   /* padding: 6px; */
   /* margin: 1px; */
-}
+/* } */
 
-.off-canvas-body {
+/* .off-canvas-body { */
   /* background: rgb(144, 41, 41); */
-  background: linear-gradient(to bottom, rgb(171, 77, 77), rgb(144, 41, 41));
-  color: rgb(117, 197, 38);
+  /* background: linear-gradient(to bottom, rgb(171, 77, 77), rgb(144, 41, 41)); */
+  /* color: rgb(117, 197, 38); */
 
   /* }
 .off-canvas-body p{
   /* border-style: dashed; */
-}
- .off-canvas-header {
-  color: blue;
-}
+/* } */
+ /* .off-canvas-header { */
+  /* color: blue; */
+/* } */
 /* .off-canvas-title{
 } */
-.off-canvas-button {
+/* .off-canvas-button {
   margin: 10px;
-}
+} */
 
-.navbar {
-  background-color: #000000; /* Background color of the navbar */
+.navigation-bar {
+   background-color: #000000; /*Background color of the navbar */
   color: white; /* Text color */
   padding: 1px; /* Padding around the navbar */
   padding-left: 2px;
@@ -39,23 +39,23 @@
   opacity: 80%;
 }
 
-.navbar-nav {
+.navigation-bar-nav {
   list-style-type: none; /* Remove default bullet points */
   margin: 0;
   padding: 0;
   display: flex; /*Use flexbox layout for the menu items */
 }
 
-.nav-item {
+.navigation-item {
   margin-right: 6px; /* Add some space between menu items */
 }
 
-.nav-link {
+.navigation-link {
   color: white; /* Text color of the links */
   text-decoration: none; /* Remove default underline */
 }
 
-.nav-link:hover {
+.navigation-link:hover {
   text-decoration: line-through;
   color: rgb(72, 255, 0);
 }
