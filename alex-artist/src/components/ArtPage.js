@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 // import ImageGallery from "react-image-gallery";
-import ImageModal from './ImageModal';
-import MasonryItem from './MasonryItem';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ImageModal from "./ImageModal";
+import MasonryItem from "./MasonryItem";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
@@ -29,9 +29,8 @@ function ArtPage() {
   //   setCurrentImage('');
   // };
 
-  
-    /* image gallery works but this is not the way i want it */
-  
+  /* image gallery works but this is not the way i want it */
+
   // const images = [
   //   {original: url, thumbnail: url,
   //   },
