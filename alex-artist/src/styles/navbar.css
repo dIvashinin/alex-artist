@@ -1,24 +1,24 @@
 /* .off-canvas-main { */
-  /* width: 400px;  */
-  /* height: 100px; */
-  /* font-family: monospace; */
-  /* font-size: 29px; */
-  /* font-weight: bold; */
-  /* padding: 6px; */
-  /* margin: 1px; */
+/* width: 400px;  */
+/* height: 100px; */
+/* font-family: monospace; */
+/* font-size: 29px; */
+/* font-weight: bold; */
+/* padding: 6px; */
+/* margin: 1px; */
 /* } */
 
 /* .off-canvas-body { */
-  /* background: rgb(144, 41, 41); */
-  /* background: linear-gradient(to bottom, rgb(171, 77, 77), rgb(144, 41, 41)); */
-  /* color: rgb(117, 197, 38); */
+/* background: rgb(144, 41, 41); */
+/* background: linear-gradient(to bottom, rgb(171, 77, 77), rgb(144, 41, 41)); */
+/* color: rgb(117, 197, 38); */
 
-  /* }
+/* }
 .off-canvas-body p{
   /* border-style: dashed; */
 /* } */
- /* .off-canvas-header { */
-  /* color: blue; */
+/* .off-canvas-header { */
+/* color: blue; */
 /* } */
 /* .off-canvas-title{
 } */
@@ -27,7 +27,7 @@
 } */
 
 .navigation-bar {
-   background-color: #000000; /*Background color of the navbar */
+  background-color: #000000; /*Background color of the navbar */
   color: white; /* Text color */
   padding: 1px; /* Padding around the navbar */
   padding-left: 2px;
