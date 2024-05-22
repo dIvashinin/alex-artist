@@ -58,6 +58,30 @@ function ArtPage() {
         <MasonryItem url={url4} onClick={handleShowModal} />
         <MasonryItem url={url2} onClick={handleShowModal} />
         <MasonryItem url={url3} onClick={handleShowModal} />
+        <MasonryItem url={url} onClick={handleShowModal} />
+        <MasonryItem url={url4} onClick={handleShowModal} />
+        <MasonryItem url={url2} onClick={handleShowModal} />
+        <MasonryItem url={url3} onClick={handleShowModal} />
+        <MasonryItem url={url} onClick={handleShowModal} />
+        <MasonryItem url={url4} onClick={handleShowModal} />
+        <MasonryItem url={url2} onClick={handleShowModal} />
+        <MasonryItem url={url3} onClick={handleShowModal} />
+        <MasonryItem url={url} onClick={handleShowModal} />
+        <MasonryItem url={url4} onClick={handleShowModal} />
+        <MasonryItem url={url2} onClick={handleShowModal} />
+        <MasonryItem url={url3} onClick={handleShowModal} />
+        <MasonryItem url={url} onClick={handleShowModal} />
+        <MasonryItem url={url4} onClick={handleShowModal} />
+        <MasonryItem url={url2} onClick={handleShowModal} />
+        <MasonryItem url={url3} onClick={handleShowModal} />
+        <MasonryItem url={url} onClick={handleShowModal} />
+        <MasonryItem url={url4} onClick={handleShowModal} />
+        <MasonryItem url={url2} onClick={handleShowModal} />
+        <MasonryItem url={url3} onClick={handleShowModal} />
+        <MasonryItem url={url} onClick={handleShowModal} />
+        <MasonryItem url={url4} onClick={handleShowModal} />
+        <MasonryItem url={url2} onClick={handleShowModal} />
+        <MasonryItem url={url3} onClick={handleShowModal} />
         {/* Add more MasonryItem components as needed */}
       </div>
       <ImageModal show={showModal} handleClose={handleCloseModal} imageUrl={currentImage} />
