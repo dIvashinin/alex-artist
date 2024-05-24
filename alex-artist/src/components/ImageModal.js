@@ -7,7 +7,7 @@ const ImageModal = ({ show, handleClose, imageUrl }) => {
     <Modal.Header closeButton>
       <Modal.Title className='modal-title'>Image</Modal.Title>
     </Modal.Header>
-    <Modal.Body>
+    <Modal.Body className='modal-body'>
       <img src={imageUrl} alt="modal pic" className="img-fluid" />
     </Modal.Body>
     <Modal.Footer>
