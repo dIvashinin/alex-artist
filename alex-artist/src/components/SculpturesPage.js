@@ -8,8 +8,7 @@ function SculpturesPage() {
       <img src={url4} className='pic4' alt='pic'/>
     </div>
   )
-
-  
+ 
 }
 
 export default SculpturesPage
