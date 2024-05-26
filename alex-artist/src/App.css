@@ -33,7 +33,6 @@
   opacity: 80%;
   margin-right: 6px;
   margin-left: 6px;
-  
 }
 /* i applied similar spin approach as was with react logo*/
 @media (prefers-reduced-motion: no-preference) {
@@ -76,18 +75,16 @@
   28.8px 35px 151.3px rgba(0, 0, 0, 0.79),
   42px 51px 269px rgba(0, 0, 0, 1)
 ; */
-box-shadow:
-  5px 1.2px 2.9px rgba(249, 0, 0, 0.162),
-  10.9px 2.6px 6.4px rgba(234, 0, 0, 0.239),
-  18.3px 4.3px 10.7px rgba(81, 23, 23, 0.295),
-  27.6px 6.5px 16.2px rgba(0, 0, 0, 0.342),
-  39.8px 9.4px 23.3px rgba(0, 0, 0, 0.385),
-  56.4px 13.3px 33px rgba(0, 0, 0, 0.428),
-  79.9px 18.8px 46.7px rgba(0, 0, 0, 0.475),
-  116.1px 27.4px 67.9px rgba(0, 0, 0, 0.531),
-  178.9px 42.2px 104.6px rgba(0, 0, 0, 0.608),
-  318px 75px 186px rgba(0, 0, 0, 0.77)
-;
+  box-shadow: 5px 1.2px 2.9px rgba(249, 0, 0, 0.162),
+    10.9px 2.6px 6.4px rgba(234, 0, 0, 0.239),
+    18.3px 4.3px 10.7px rgba(81, 23, 23, 0.295),
+    27.6px 6.5px 16.2px rgba(0, 0, 0, 0.342),
+    39.8px 9.4px 23.3px rgba(0, 0, 0, 0.385),
+    56.4px 13.3px 33px rgba(0, 0, 0, 0.428),
+    79.9px 18.8px 46.7px rgba(0, 0, 0, 0.475),
+    116.1px 27.4px 67.9px rgba(0, 0, 0, 0.531),
+    178.9px 42.2px 104.6px rgba(0, 0, 0, 0.608),
+    318px 75px 186px rgba(0, 0, 0, 0.77);
 }
 
 /* .App-link {
