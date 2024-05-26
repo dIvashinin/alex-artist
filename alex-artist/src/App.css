@@ -3,6 +3,7 @@
 @import "./styles/artPage.css";
 @import "./styles/contactPage.css";
 @import "./styles/imageModal.css";
+@import "./styles/bioPage.css";
 
 .App {
   text-align: center;

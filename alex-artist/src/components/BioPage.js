@@ -2,8 +2,8 @@ import React from "react";
 
 function BioPage() {
   return (
-    <div>
-      <h3>here goes bio</h3>
+    <div className="bio-page-main">
+      <h1>here goes bio</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
