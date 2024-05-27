@@ -70,3 +70,45 @@
     margin-right: 2px; /* Add some space between menu items */
   }
 }
+
+/* to add later
+Common Scenarios
+Mobile Devices: Smaller screens, touch input, varying resolutions.
+Tablets: Medium-sized screens, both touch and keyboard input.
+Desktops and Laptops: Larger screens, keyboard, and mouse input.
+Large Screens: TVs, projectors with very large resolutions.
+Orientation Changes: Devices like tablets and smartphones that can switch between portrait and landscape modes.
+*/
+
+@media (max-width: 480px) {
+  /* Styles for very small mobile devices */
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Styles for larger mobile devices */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for tablets */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for larger tablets or smaller desktop screens */
+}
+
+@media (min-width: 1200px) {
+  /* Styles for desktops and laptops */
+}
+
+@media (min-width: 1600px) {
+  /* Styles for large screens like TVs or projectors */
+}
+
+@media (orientation: landscape) {
+  /* Styles for devices in landscape orientation */
+}
+
+@media (orientation: portrait) {
+  /* Styles for devices in portrait orientation */
+}
+
