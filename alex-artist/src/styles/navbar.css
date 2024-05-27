@@ -59,3 +59,14 @@
   text-decoration: line-through;
   color: rgb(72, 255, 0);
 }
+
+/* adding responsiveness */
+@media (max-width: 768px) {
+  .navigation-bar {
+    font-size: 0.95rem;
+    
+  }
+  .navigation-item {
+    margin-right: 2px; /* Add some space between menu items */
+  }
+}
