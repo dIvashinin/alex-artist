@@ -61,15 +61,6 @@
 }
 
 /* adding responsiveness */
-@media (max-width: 768px) {
-  .navigation-bar {
-    font-size: 0.95rem;
-    
-  }
-  .navigation-item {
-    margin-right: 2px; /* Add some space between menu items */
-  }
-}
 
 /* to add later
 Common Scenarios
@@ -85,22 +76,61 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .navigation-bar {
+    font-size: 0.95rem;
+    
+  }
+  .navigation-item {
+    margin-right: 2px; /* Add some space between menu items */
+  }
   /* Styles for larger mobile devices */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .navigation-bar {
+    font-size: 1.4rem;
+    
+  }
+  .navigation-item {
+    margin-right: 6px; /* Add some space between menu items */
+  }
+
   /* Styles for tablets */
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+  .navigation-bar {
+    font-size: 1.9rem;
+    
+  }
+  .navigation-item {
+    margin-right: 7px; /* Add some space between menu items */
+  }
+
   /* Styles for larger tablets or smaller desktop screens */
 }
 
 @media (min-width: 1200px) {
+
+  .navigation-bar {
+    font-size: 2.3rem;
+    
+  }
+  .navigation-item {
+    margin-right: 8px; /* Add some space between menu items */
+  }
   /* Styles for desktops and laptops */
 }
 
 @media (min-width: 1600px) {
+  .navigation-bar {
+    font-size: 3rem;
+    
+  }
+  .navigation-item {
+    margin-right: 8px; /* Add some space between menu items */
+  }
   /* Styles for large screens like TVs or projectors */
 }
 
