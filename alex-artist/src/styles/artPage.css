@@ -19,7 +19,7 @@ particularly if your images have different aspect ratios.
   gap: 10px;
 }
 .masonry-item {
-  width: calc(16.66% - 10px);
+  width: calc(20% - 10px);
   /* margin-bottom: 20px; */
 }
 .art-page-main-container img {
