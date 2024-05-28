@@ -2,9 +2,10 @@ import React from 'react'
 
 function ExhibitionsPage() {
   return (
-    <div>here go exhibitions
+    <div className='exhibitions-page-main'>
+      <h1>here go exhibitions</h1>
 
-<h3>2024</h3>
+<h2>2024</h2>
 <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam. 
@@ -19,7 +20,7 @@ function ExhibitionsPage() {
         lacinia nunc. Curabitur tortor. 
         </p>
         <p>Pellentesque nibh. Aenean quam. In
-        scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.
+        scelerisque sem at dolor. 
         Proin ut ligula vel nunc egestas porttitor. </p>
         <p>Morbi lectus risus, iaculis
         vel, suscipit quis, luctus non, massa.
@@ -28,7 +29,7 @@ function ExhibitionsPage() {
       <p>
         {" "}
         Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus
-        metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque
+        metus. Quisque
         volutpat condimentum velit.
       </p>
       <h3>2023</h3>
@@ -37,7 +38,7 @@ function ExhibitionsPage() {
         inceptos himenaeos. Nam nec ante. </p>
         <p>Sed lacinia, urna non tincidunt
         mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.
-        Nulla facilisi. Ut fringilla. Suspendisse potenti. </p>
+        Nulla facilisi. Ut fringilla. </p>
         <p>Nunc feugiat mi a
         tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam
         ultrices.

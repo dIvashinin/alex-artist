@@ -4,6 +4,7 @@
 @import "./styles/contactPage.css";
 @import "./styles/imageModal.css";
 @import "./styles/bioPage.css";
+@import "./styles/exhibitions.css";
 
 .App {
   text-align: center;
