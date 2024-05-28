@@ -72,13 +72,26 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 */
 
 @media (max-width: 480px) {
+  .navigation-bar {
+    font-size: 1.2rem;
+  }
+  .navigation-bar-nav{
+    /* making 2 lines and more depending on screen width */
+    flex-wrap: wrap;
+  }
+  .navigation-item {
+    margin-right: 2px; /* Add some space between menu items */
+  }
   /* Styles for very small mobile devices */
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
   .navigation-bar {
-    font-size: 0.95rem;
-    
+    font-size: 1.2rem;
+  }
+  .navigation-bar-nav{
+    /* making 2nd line */
+    flex-wrap: wrap;
   }
   .navigation-item {
     margin-right: 2px; /* Add some space between menu items */
@@ -88,8 +101,7 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 
 @media (min-width: 768px) and (max-width: 991px) {
   .navigation-bar {
-    font-size: 1.4rem;
-    
+    font-size: 1.4rem; 
   }
   .navigation-item {
     margin-right: 6px; /* Add some space between menu items */
@@ -101,8 +113,7 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 @media (min-width: 992px) and (max-width: 1199px) {
 
   .navigation-bar {
-    font-size: 1.9rem;
-    
+    font-size: 1.9rem;  
   }
   .navigation-item {
     margin-right: 7px; /* Add some space between menu items */
@@ -114,8 +125,7 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 @media (min-width: 1200px) {
 
   .navigation-bar {
-    font-size: 2.3rem;
-    
+    font-size: 2.3rem; 
   }
   .navigation-item {
     margin-right: 8px; /* Add some space between menu items */
@@ -126,7 +136,6 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 @media (min-width: 1600px) {
   .navigation-bar {
     font-size: 3rem;
-    
   }
   .navigation-item {
     margin-right: 8px; /* Add some space between menu items */
