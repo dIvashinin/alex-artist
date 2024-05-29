@@ -1,66 +1,70 @@
-import React from 'react'
+import React from "react";
 
 function ExhibitionsPage() {
   return (
-    <div className='exhibitions-page-main'>
+    <div className="exhibitions-page-main">
       <h1>here go exhibitions</h1>
 
-<h2>2024</h2>
-<p>
+      <h2>2024</h2>
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-        odio. Praesent libero. Sed cursus ante dapibus diam. 
-        </p>
-        <p>Sed nisi. Nulla
-        quis sem at nibh elementum imperdiet. Duis sagittis ipsum. {" "}
+        odio. Praesent libero. Sed cursus ante dapibus diam.
+      </p>
+      <p>
+        Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
+        ipsum.{" "}
       </p>
 
       <p>
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
         inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim
-        lacinia nunc. Curabitur tortor. 
-        </p>
-        <p>Pellentesque nibh. Aenean quam. In
-        scelerisque sem at dolor. 
-        Proin ut ligula vel nunc egestas porttitor. </p>
-        <p>Morbi lectus risus, iaculis
-        vel, suscipit quis, luctus non, massa.
+        lacinia nunc. Curabitur tortor.
       </p>
+      <p>
+        Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Proin ut
+        ligula vel nunc egestas porttitor.{" "}
+      </p>
+      <p>Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa.</p>
 
       <p>
         {" "}
         Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus
-        metus. Quisque
-        volutpat condimentum velit.
+        metus. Quisque volutpat condimentum velit.
       </p>
       <h3>2023</h3>
       <p>
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-        inceptos himenaeos. Nam nec ante. </p>
-        <p>Sed lacinia, urna non tincidunt
-        mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.
-        Nulla facilisi. Ut fringilla. </p>
-        <p>Nunc feugiat mi a
-        tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam
-        ultrices.
+        inceptos himenaeos. Nam nec ante.{" "}
+      </p>
+      <p>
+        Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a
+        cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla.{" "}
+      </p>
+      <p>
+        Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin
+        quam. Etiam ultrices.
       </p>
       <p>
         {" "}
         Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer
-        euismod lacus luctus magna. </p>
-        <p>Quisque cursus, metus vitae pharetra auctor,
-        sem massa mattis sem, at interdum magna augue eget diam.
+        euismod lacus luctus magna.{" "}
+      </p>
+      <p>
+        Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at
+        interdum magna augue eget diam.
       </p>
       <h3>2022</h3>
       <p>
         {" "}
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia Curae; Morbi lacinia molestie dui. </p>
-        <p>Praesent blandit dolor. Sed
-        non quam. In vel mi sit amet augue congue elementum.
+        cubilia Curae; Morbi lacinia molestie dui.{" "}
       </p>
-
+      <p>
+        Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue
+        elementum.
+      </p>
     </div>
-  )
+  );
 }
 
-export default ExhibitionsPage
+export default ExhibitionsPage;
