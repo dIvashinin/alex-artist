@@ -15,6 +15,7 @@ function ContactPage() {
           instagram
         </a>
       </p>
+      <p>code / design by DI</p>
       {/* 
       target="_blank" attribute opens the link in a new tab when clicked.
       rel="noopener noreferrer" attribute is added for security reasons when using 
