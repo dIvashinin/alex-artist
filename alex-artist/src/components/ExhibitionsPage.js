@@ -31,7 +31,7 @@ function ExhibitionsPage() {
         Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus
         metus. Quisque volutpat condimentum velit.
       </p>
-      <h3>2023</h3>
+      <h2>2023</h2>
       <p>
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
         inceptos himenaeos. Nam nec ante.{" "}
@@ -53,15 +53,37 @@ function ExhibitionsPage() {
         Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at
         interdum magna augue eget diam.
       </p>
-      <h3>2022</h3>
+      <h2>2022</h2>
       <p>
         {" "}
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
         cubilia Curae; Morbi lacinia molestie dui.{" "}
       </p>
       <p>
-        Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue
+        Blandit dolor. Sed non quam. In vel mi sit amet augue congue
         elementum.
+      </p>
+      <h2>2021</h2>
+      <p>
+        {" "}
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+        cubilia Curae; Morbi lacinia molestie dui.{" "}
+      </p>
+      <p>
+        Praesent blandit dolor. In vel mi sit amet augue congue
+        elementum.
+      </p>
+      <p>
+        Sed non quam. In vel mi sit amet augue congue
+        elementum.
+      </p>
+      <h2>2020</h2>
+      <p>
+        {" "}
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+        <p>
+        Posuere
+        cubilia Curae. Morbi lacinia molestie dui.{" "}
       </p>
     </div>
   );

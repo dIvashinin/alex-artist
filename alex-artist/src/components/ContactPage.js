@@ -4,7 +4,8 @@ function ContactPage() {
   const url = "https://www.instagram.com/alexanderskorobogatov/";
   return (
     <div>
-      here go contacts
+      <h1>here go contacts</h1>
+      <p>email: xxxxx@xxxxx.com</p>
       <p>
         <a
           href="https://www.instagram.com/alexanderskorobogatov/"
