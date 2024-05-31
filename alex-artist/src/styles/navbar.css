@@ -37,6 +37,9 @@
   font-size: 1.5rem;
   margin: 0px 8px 20px 8px;
   opacity: 80%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;  /* Ensure the navbar is above other content */
 }
 
 .navigation-bar-nav {
@@ -58,6 +61,11 @@
 .navigation-link:hover {
   text-decoration: line-through;
   color: rgb(72, 255, 0);
+}
+
+/* Ensure the content below the navbar is not hidden under it */
+body {
+  padding-top: 60px;  /* Adjust this value based on the navbar height */
 }
 
 /* adding responsiveness */
