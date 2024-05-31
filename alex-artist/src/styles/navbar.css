@@ -37,9 +37,9 @@
   font-size: 1.5rem;
   margin: 0px 8px 20px 8px;
   opacity: 80%;
-  position: fixed;
+  position: fixed; /* position fixed on top */
   top: 0;
-  z-index: 1000;  /* Ensure the navbar is above other content */
+  z-index: 1000; /* Ensure the navbar is above other content */
 }
 
 .navigation-bar-nav {
@@ -65,7 +65,7 @@
 
 /* Ensure the content below the navbar is not hidden under it */
 body {
-  padding-top: 60px;  /* Adjust this value based on the navbar height */
+  padding-top: 60px; /* Adjust this value based on the navbar height */
 }
 
 /* adding responsiveness */
@@ -83,7 +83,7 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
   .navigation-bar {
     font-size: 1.2rem;
   }
-  .navigation-bar-nav{
+  .navigation-bar-nav {
     /* making 2 lines and more depending on screen width */
     flex-wrap: wrap;
   }
@@ -97,7 +97,7 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
   .navigation-bar {
     font-size: 1.2rem;
   }
-  .navigation-bar-nav{
+  .navigation-bar-nav {
     /* making 2nd line */
     flex-wrap: wrap;
   }
@@ -109,7 +109,7 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 
 @media (min-width: 768px) and (max-width: 991px) {
   .navigation-bar {
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
   .navigation-item {
     margin-right: 6px; /* Add some space between menu items */
@@ -119,9 +119,8 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
   .navigation-bar {
-    font-size: 1.9rem;  
+    font-size: 1.9rem;
   }
   .navigation-item {
     margin-right: 7px; /* Add some space between menu items */
@@ -131,9 +130,8 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 }
 
 @media (min-width: 1200px) {
-
   .navigation-bar {
-    font-size: 2.3rem; 
+    font-size: 2.3rem;
   }
   .navigation-item {
     margin-right: 8px; /* Add some space between menu items */
@@ -158,4 +156,3 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
 @media (orientation: portrait) {
   /* Styles for devices in portrait orientation */
 }
-
