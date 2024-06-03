@@ -4,7 +4,6 @@ import React from 'react'
 // import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 
-
 function Navbar() {
 
     // const [show, setShow] = useState(false);
@@ -15,7 +14,6 @@ function Navbar() {
     //   handleClose(); // Close the offcanvas when a menu item is clicked
     // };
     
-
 //   return (
 //     <div className='off-canvas-container'>
 //       <nav>
@@ -102,6 +100,5 @@ return (
       </ul>
     </nav>
 )
-
 }
 export default Navbar

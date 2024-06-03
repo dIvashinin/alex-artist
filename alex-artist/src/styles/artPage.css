@@ -1,9 +1,7 @@
-/* 
-Masonry Layout: In a masonry layout, images are arranged in a grid-like structure, 
+/* Masonry Layout: In a masonry layout, images are arranged in a grid-like structure, 
 but each image can have a variable height. 
 This layout can create a visually interesting and dynamic presentation, 
-particularly if your images have different aspect ratios.
-*/
+particularly if your images have different aspect ratios.*/
 .art-page-main-container {
   /* width: 500px; */
   /* height: 900px;
