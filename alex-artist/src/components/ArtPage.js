@@ -163,5 +163,4 @@ function ArtPage() {
   //   </div>
   );
 }
-
 export default ArtPage;

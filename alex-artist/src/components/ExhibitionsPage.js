@@ -7,7 +7,7 @@ function ExhibitionsPage() {
 
       <h2>2024</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+        Lorem ipsum dolor. sit amet, consectetur adipiscing elit. Integer nec
         odio. Praesent libero. Sed cursus ante dapibus diam.
       </p>
       <p>
@@ -51,7 +51,7 @@ function ExhibitionsPage() {
       </p>
       <p>
         Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at
-        interdum magna augue eget diam.
+        interdum magna augue eget diam. augue eget diam.
       </p>
       <h2>2022</h2>
       <p>
@@ -70,7 +70,7 @@ function ExhibitionsPage() {
         cubilia Curae; Morbi lacinia molestie dui.{" "}
       </p>
       <p>
-        Praesent blandit dolor. In vel mi sit amet augue congue
+        Praesent blandit dolor. In vel mi sit amet In vel mi augue congue
         elementum.
       </p>
       <p>
@@ -83,10 +83,9 @@ function ExhibitionsPage() {
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
         <p>
         Posuere
-        cubilia Curae. Morbi lacinia molestie dui.{" "}
+        cubilia Morbi Curae. Morbi lacinia molestie dui.{" "}
       </p>
     </div>
   );
 }
-
 export default ExhibitionsPage;
