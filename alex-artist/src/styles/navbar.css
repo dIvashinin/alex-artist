@@ -51,9 +51,9 @@
 }
 
 /* Ensure the content below the navbar is not hidden under it */
-body {
-  padding-top: 60px; /* Adjust this value based on the navbar height */
-}
+/* body {
+  padding-top: 65px; /* Adjust this value based on the navbar height */
+/*} */
 
 /* adding responsiveness */
 
@@ -66,6 +66,7 @@ Large Screens: TVs, projectors with very large resolutions - done
 Orientation Changes: Devices like tablets and smartphones that can switch between portrait and landscape modes.
 */
 
+/* Styles for very small mobile devices */
 @media (max-width: 480px) {
   .navigation-bar {
     font-size: 1.2rem;
@@ -77,9 +78,12 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
   .navigation-item {
     margin-right: 2px; /* Add some space between menu items */
   }
-  /* Styles for very small mobile devices */
+  body {
+    padding-top: 55px; /* Adjust this value based on the navbar height */
+  }
 }
 
+/* Styles for larger mobile devices */
 @media (min-width: 481px) and (max-width: 767px) {
   .navigation-bar {
     font-size: 1.2rem;
@@ -91,9 +95,12 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
   .navigation-item {
     margin-right: 2px; /* Add some space between menu items */
   }
-  /* Styles for larger mobile devices */
+  body {
+    padding-top: 50px; /* Adjust this value based on the navbar height */
+  }
 }
 
+/* Styles for tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .navigation-bar {
     font-size: 1.4rem;
@@ -101,10 +108,13 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
   .navigation-item {
     margin-right: 6px; /* Add some space between menu items */
   }
+  body {
+    padding-top: 35px; /* Adjust this value based on the navbar height */
+  }
 
-  /* Styles for tablets */
 }
 
+/* Styles for larger tablets or smaller desktop screens */
 @media (min-width: 992px) and (max-width: 1199px) {
   .navigation-bar {
     font-size: 1.9rem;
@@ -112,10 +122,13 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
   .navigation-item {
     margin-right: 7px; /* Add some space between menu items */
   }
+  body {
+    padding-top: 45px; /* Adjust this value based on the navbar height */
+  }
 
-  /* Styles for larger tablets or smaller desktop screens */
 }
 
+/* Styles for desktops and laptops */
 @media (min-width: 1200px) {
   .navigation-bar {
     font-size: 2.3rem;
@@ -123,9 +136,12 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
   .navigation-item {
     margin-right: 8px; /* Add some space between menu items */
   }
-  /* Styles for desktops and laptops */
+  body {
+    padding-top: 55px; /* Adjust this value based on the navbar height */
+  }
 }
 
+/* Styles for large screens like TVs or projectors */
 @media (min-width: 1600px) {
   .navigation-bar {
     font-size: 3rem;
@@ -133,7 +149,9 @@ Orientation Changes: Devices like tablets and smartphones that can switch betwee
   .navigation-item {
     margin-right: 8px; /* Add some space between menu items */
   }
-  /* Styles for large screens like TVs or projectors */
+  body {
+    padding-top: 70px; /* Adjust this value based on the navbar height */
+  }
 }
 
 @media (orientation: landscape) {
