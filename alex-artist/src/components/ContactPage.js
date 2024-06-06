@@ -1,7 +1,7 @@
 import React from "react";
 
 function ContactPage() {
-  const url = "https://www.instagram.com/alexanderskorobogatov/";
+  // const url = "https://www.instagram.com/alexanderskorobogatov/";
   return (
     <div>
       <h1>here go contacts</h1>
