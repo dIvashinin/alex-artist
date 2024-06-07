@@ -1,7 +1,28 @@
-/* .modal-main{ 
-} */
-.modal-title{
-  font-size: 1rem;
+/* Custom styles for the modal */
+.modal-main .modal-dialog {
+  max-width: 50%; /* Adjust the maximum width as needed */
+  margin: 0.75rem auto; 
 }
-/* .modal-body{ 
-} */
+
+.modal-main .modal-content {
+  padding: 0px; /* Adjust padding */
+  border-radius: 0px;
+}
+
+/* .modal-main .modal-header { */
+  /* border-bottom: none; Remove the bottom border */
+  /* padding: 10px; Adjust padding */
+/* } */
+
+/* .modal-main .modal-title { */
+  /* margin: 0; Adjust margin */
+/* } */
+
+/* .modal-main .modal-body { */
+  /* padding: 10px; Adjust padding */
+/* } */
+
+/* .modal-main .modal-footer { */
+  /* border-top: none; Remove the top border */
+  /* padding: 10px; Adjust padding */
+/* } */
