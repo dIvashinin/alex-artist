@@ -11,7 +11,7 @@
 
 .modal-main .modal-header {
   border-bottom: none; /*  Remove the bottom border */
-   padding: 10px;
+   padding: 0px;
 }
 
 .modal-main .modal-title {
@@ -19,11 +19,14 @@
 }
 
 .modal-main .modal-body {
-  padding: 2px;
+  padding: 1px;
 }
 
 .modal-main .modal-footer {
   border-top: none; /*  Remove the top border */
-  padding: 10px; 
+  padding: 0px; 
 }
 
+/* .modal-footer button {
+  padding: 5px;
+} */
