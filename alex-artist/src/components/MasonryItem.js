@@ -12,5 +12,4 @@ const MasonryItem = ({ url, onClick }) => {
     </div>
   );
 };
-
 export default MasonryItem;

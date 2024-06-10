@@ -1,32 +1,26 @@
 /* Custom styles for the modal */
 .modal-main .modal-dialog {
-  max-width: 50%; 
-  margin: 0.75rem auto; 
+  max-width: 50%;
+  margin: 0.75rem auto;
 }
-
 .modal-main .modal-content {
-  padding: 0px; 
+  padding: 0px;
   border-radius: 0px;
 }
-
 .modal-main .modal-header {
   border-bottom: none; /*  Remove the bottom border */
-   padding: 0px;
+  padding: 0px;
 }
-
 .modal-main .modal-title {
-  margin: 0; 
+  margin: 0;
 }
-
 .modal-main .modal-body {
   padding: 1px;
 }
-
 .modal-main .modal-footer {
   border-top: none; /*  Remove the top border */
-  padding: 0px; 
+  padding: 0px;
 }
-
 /* .modal-footer button {
   padding: 5px;
 } */
