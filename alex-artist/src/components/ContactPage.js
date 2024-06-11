@@ -16,7 +16,21 @@ function ContactPage() {
           instagram
         </a>
       </p>
-      <p>code / design by DI</p>
+      <p>
+      code / design by { }
+      <a
+          href="https://github.com/dIvashinin"
+          className="github-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        
+        DI
+        
+        </a>
+        </p>
+
+      
       {/* 
       target="_blank" attribute opens the link in a new tab when clicked.
       rel="noopener noreferrer" attribute is added for security reasons when using 
