@@ -24,9 +24,7 @@ function ContactPage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        
         DI
-        
         </a>
         </p>
 
