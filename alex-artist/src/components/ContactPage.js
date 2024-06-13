@@ -27,8 +27,6 @@ function ContactPage() {
         DI
         </a>
         </p>
-
-      
       {/* 
       target="_blank" attribute opens the link in a new tab when clicked.
       rel="noopener noreferrer" attribute is added for security reasons when using 
